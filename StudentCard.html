@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="black">
+        <form>
+            <h3>Please fill in the form</h3>
+
+            <label>Full Name</label>
+            <input type="text" id="" placeholder="">
+
+            <label>Date of birth</label>
+            <input type="text" id="inBirth" placeholder="birth...">
+
+            <label>Field</label>
+            <input type="text" id="inField" placeholder="field...">
+
+            <label>Year</label>
+            <input type="number" id="inYear" placeholder="Year..">
+
+            <label>Subscription</label>
+            <input type="number" id="inNum" placeholder="sub n°">
+
+            <label for="file" class="upload">Upload an Image</label>
+            <br>
+
+            <span>Chose one that describes you perfectly</span>
+            <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
+        </form>
+        <button type="submit" id="preview">Preview</button>
+        <div class="container">
+            <div class="card" id="result">
+                <header id="head">
+                    <div class="camp">
+                        <h4>Campus card</h4>
+                        <span>Undergraduate</span>
+                    </div>
+                    <img src="StudentCard.js" alt="">
+                </header>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

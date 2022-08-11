@@ -1,0 +1,17 @@
+img{
+    width: 90px;
+    height: 90px;
+    float:left;
+}
+#idCard{
+    border:5px solid black;
+    height: 14em;
+    width:25em;
+    background-color: yellow;
+    color: black;
+}
+body {
+    background-color: black;
+    color: white;
+
+}
